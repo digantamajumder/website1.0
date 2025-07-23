@@ -1,126 +1,61 @@
 import { Product } from '../types';
 
 export const products: Product[] = [
-  // Fruits & Vegetables
+  // Cigarettes
   {
     id: '1',
-    name: 'Fresh Tomatoes',
-    image: 'https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits & Vegetables',
-    deliveryTime: '8 mins'
+    name: 'Marlboro Red',
+    image: 'https://images.pexels.com/photos/6231901/pexels-photo-6231901.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cigarettes',
+    deliveryTime: '10 mins'
   },
   {
     id: '2',
-    name: 'Red Onions',
-    image: 'https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits & Vegetables',
-    deliveryTime: '8 mins'
+    name: 'Gold Flake',
+    image: 'https://images.pexels.com/photos/6231901/pexels-photo-6231901.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cigarettes',
+    deliveryTime: '10 mins'
   },
   {
     id: '3',
-    name: 'Fresh Potatoes',
-    image: 'https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits & Vegetables',
-    deliveryTime: '8 mins'
+    name: 'Classic Regular',
+    image: 'https://images.pexels.com/photos/6231901/pexels-photo-6231901.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cigarettes',
+    deliveryTime: '10 mins'
   },
   {
     id: '4',
-    name: 'Fresh Bananas',
-    image: 'https://images.pexels.com/photos/2872755/pexels-photo-2872755.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits & Vegetables',
-    deliveryTime: '8 mins'
+    name: 'Wills Navy Cut',
+    image: 'https://images.pexels.com/photos/6231901/pexels-photo-6231901.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cigarettes',
+    deliveryTime: '10 mins'
   },
   {
     id: '5',
-    name: 'Red Apples',
-    image: 'https://images.pexels.com/photos/1510392/pexels-photo-1510392.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits & Vegetables',
-    deliveryTime: '8 mins'
+    name: 'Four Square',
+    image: 'https://images.pexels.com/photos/6231901/pexels-photo-6231901.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cigarettes',
+    deliveryTime: '10 mins'
   },
   {
     id: '6',
-    name: 'Fresh Spinach',
-    image: 'https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits & Vegetables',
-    deliveryTime: '8 mins'
+    name: 'Dunhill',
+    image: 'https://images.pexels.com/photos/6231901/pexels-photo-6231901.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cigarettes',
+    deliveryTime: '10 mins'
   },
   {
     id: '7',
-    name: 'Fresh Coriander',
-    image: 'https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits & Vegetables',
-    deliveryTime: '8 mins'
+    name: 'Parliament',
+    image: 'https://images.pexels.com/photos/6231901/pexels-photo-6231901.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cigarettes',
+    deliveryTime: '10 mins'
   },
   {
     id: '8',
-    name: 'Fresh Lemons',
-    image: 'https://images.pexels.com/photos/1414130/pexels-photo-1414130.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fruits & Vegetables',
-    deliveryTime: '8 mins'
-  },
-
-  // Dairy, Bread & Eggs
-  {
-    id: '9',
-    name: 'Amul Toned Milk',
-    image: 'https://images.pexels.com/photos/416254/pexels-photo-416254.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Dairy, Bread & Eggs',
-    deliveryTime: '10 mins'
-  },
-  {
-    id: '10',
-    name: 'Mother Dairy Fresh Curd',
-    image: 'https://images.pexels.com/photos/416254/pexels-photo-416254.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Dairy, Bread & Eggs',
-    deliveryTime: '10 mins'
-  },
-  {
-    id: '11',
-    name: 'Amul Butter',
-    image: 'https://images.pexels.com/photos/416254/pexels-photo-416254.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Dairy, Bread & Eggs',
-    deliveryTime: '10 mins'
-  },
-  {
-    id: '12',
-    name: 'Amul Fresh Paneer',
-    image: 'https://images.pexels.com/photos/416254/pexels-photo-416254.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Dairy, Bread & Eggs',
-    deliveryTime: '10 mins'
-  },
-  {
-    id: '13',
-    name: 'Amul Processed Cheese',
-    image: 'https://images.pexels.com/photos/416254/pexels-photo-416254.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Dairy, Bread & Eggs',
-    deliveryTime: '10 mins'
-  },
-  {
-    id: '14',
-    name: 'Farm Fresh Eggs',
-    image: 'https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Dairy, Bread & Eggs',
-    deliveryTime: '10 mins'
-  },
-  {
-    id: '15',
-    name: 'Britannia Brown Bread',
-    image: 'https://images.pexels.com/photos/209403/pexels-photo-209403.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Dairy, Bread & Eggs',
-    deliveryTime: '10 mins'
-  },
-  {
-    id: '16',
-    name: 'Britannia White Bread',
-    image: 'https://images.pexels.com/photos/209403/pexels-photo-209403.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Dairy, Bread & Eggs',
-    deliveryTime: '10 mins'
-  },
-  {
-    id: '172',
-    name: 'Heritage Milk',
-    image: 'https://images.pexels.com/photos/416254/pexels-photo-416254.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Dairy, Bread & Eggs',
+    name: 'Camel',
+    image: 'https://images.pexels.com/photos/6231901/pexels-photo-6231901.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Cigarettes',
     deliveryTime: '10 mins'
   },
 
@@ -326,50 +261,6 @@ export const products: Product[] = [
     image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Tea, Coffee & Health Drinks',
     deliveryTime: '15 mins'
-  },
-
-  // Cold Drinks & Juices
-  {
-    id: '45',
-    name: 'Coca Cola',
-    image: 'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Cold Drinks & Juices',
-    deliveryTime: '8 mins'
-  },
-  {
-    id: '46',
-    name: 'Pepsi',
-    image: 'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Cold Drinks & Juices',
-    deliveryTime: '8 mins'
-  },
-  {
-    id: '47',
-    name: 'Red Bull',
-    image: 'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Cold Drinks & Juices',
-    deliveryTime: '8 mins'
-  },
-  {
-    id: '48',
-    name: 'Frooti Mango Drink',
-    image: 'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Cold Drinks & Juices',
-    deliveryTime: '8 mins'
-  },
-  {
-    id: '49',
-    name: 'Tropicana Juice',
-    image: 'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Cold Drinks & Juices',
-    deliveryTime: '8 mins'
-  },
-  {
-    id: '50',
-    name: 'Bisleri Water',
-    image: 'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Cold Drinks & Juices',
-    deliveryTime: '8 mins'
   },
 
   // Snacks & Munchies
@@ -847,57 +738,6 @@ export const products: Product[] = [
     deliveryTime: '12 mins'
   },
 
-  // Beauty & Cosmetics
-  {
-    id: '116',
-    name: 'Maybelline Lipstick',
-    image: 'https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Beauty & Cosmetics',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '117',
-    name: 'Lakmé Foundation',
-    image: 'https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Beauty & Cosmetics',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '118',
-    name: 'Clinique Moisturizer',
-    image: 'https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Beauty & Cosmetics',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '119',
-    name: 'Lakmé Perfume',
-    image: 'https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Beauty & Cosmetics',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '120',
-    name: 'Maybelline Makeup Brushes',
-    image: 'https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Beauty & Cosmetics',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '121',
-    name: 'Lakmé Nail Polish',
-    image: 'https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Beauty & Cosmetics',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '122',
-    name: 'Clinique Face Serum',
-    image: 'https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Beauty & Cosmetics',
-    deliveryTime: '15 mins'
-  },
-
   // Men's Grooming
   {
     id: '123',
@@ -1037,57 +877,6 @@ export const products: Product[] = [
     deliveryTime: '12 mins'
   },
 
-  // Kitchen Accessories
-  {
-    id: '142',
-    name: 'Kitchen Knives',
-    image: 'https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Kitchen Accessories',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '143',
-    name: 'Vegetable Peeler',
-    image: 'https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Kitchen Accessories',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '144',
-    name: 'Grater',
-    image: 'https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Kitchen Accessories',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '145',
-    name: 'Spatula',
-    image: 'https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Kitchen Accessories',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '146',
-    name: 'Gas Lighter',
-    image: 'https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Kitchen Accessories',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '147',
-    name: 'Storage Containers',
-    image: 'https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Kitchen Accessories',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '148',
-    name: 'Lunch Box',
-    image: 'https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Kitchen Accessories',
-    deliveryTime: '15 mins'
-  },
-
   // Pooja Essentials
   {
     id: '149',
@@ -1218,43 +1007,6 @@ export const products: Product[] = [
     image: 'https://images.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg?auto=compress&cs=tinysrgb&w=400',
     category: 'Electronics & Accessories',
     deliveryTime: '12 mins'
-  },
-
-  // Fitness & Health
-  {
-    id: '167',
-    name: 'Yoga Mat',
-    image: 'https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fitness & Health',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '168',
-    name: 'Resistance Bands',
-    image: 'https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fitness & Health',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '169',
-    name: 'Weighing Scale',
-    image: 'https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fitness & Health',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '170',
-    name: 'Protein Bars',
-    image: 'https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fitness & Health',
-    deliveryTime: '15 mins'
-  },
-  {
-    id: '171',
-    name: 'First Aid Kit',
-    image: 'https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg?auto=compress&cs=tinysrgb&w=400',
-    category: 'Fitness & Health',
-    deliveryTime: '15 mins'
   },
 
   // Toys & Games - Adding branded products

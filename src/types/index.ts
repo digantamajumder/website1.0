@@ -3,7 +3,6 @@ export interface Product {
   name: string;
   image: string;
   category: string;
-  unit: string;
   deliveryTime: string;
 }
 
